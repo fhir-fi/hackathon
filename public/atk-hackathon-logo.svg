@@ -94,9 +94,9 @@
       }      
     </style>
   </defs>
-  <rect id="screen" x="75" y="75" width="160" height="90" />
-  <path id="stand" d="M155,165 v30 l-30,10 M155,195 l30,10" />
-  <path id="content" d="M135,120 h40 M155,100 v40" />
-  <path id="plus" d="M50,75 h50 M75,50 v50" />
-  <circle cx="150" cy="130" r="250" />
+  <rect id="screen" x="170" y="190" width="160" height="90" />
+  <path id="stand" d="M250,280 v30 l-30,10 M250,310 l30,10" />
+  <path id="content" d="M230,235 h40 M250,215 v40" />
+  <path id="plus" d="M145,190 h50 M170,165 v50" />
+  <circle cx="250" cy="250" r="240" />
 </svg>

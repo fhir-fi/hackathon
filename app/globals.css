@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -55,20 +56,30 @@ main {
   max-width: 60em;
   margin: 1em auto;
   border-radius: 2vh;
-  padding: 5vh 2vw 2vh;
+  padding: 0 1rem 20rem;
   color: var(--foreground);
   background: var(--background);
+  position: relative;
+  overflow: hidden;
 }
 
 main > picture > img {
   display: block;
-  margin: -5vh -2vw -2vh;
-  height: 20em;
+  height: 20rem;
+}
+
+main > picture:first-of-type > img {
+  margin: -4rem -4rem 4rem;
+}
+
+main > picture:last-of-type > img {
+  position: absolute;
+  bottom: -4rem;
+  right: -4rem;
 }
 
 main > h1 {
   font-size: xx-large;
-  font-size: 400%;
 }
 
 a {
@@ -82,5 +93,11 @@ a {
   }
   main {
     border: 6px solid black;;
+  }
+}
+
+@media (min-width: 800px) {
+  main > h1 {
+    font-size: 4em;
   }
 }

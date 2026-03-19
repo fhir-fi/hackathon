@@ -10,6 +10,9 @@ export default function Home() {
         HL7 Finland ja Helsingin kaupunki järjestävät Sosiaali- ja terveydenhuollon ATK-päivien
         yhteydessä hackathon-tapahtuman.
       </p>
+      <picture>
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} />
+      </picture>
     </main>
   );
 }
