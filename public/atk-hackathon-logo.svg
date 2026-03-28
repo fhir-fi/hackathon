@@ -12,7 +12,7 @@
       path, rect, circle {
         fill: none;
         stroke: #09345A;
-        stroke-width: var(--stroke-width);
+        stroke-width: 14;
         stroke-linecap: round;
         stroke-linejoin: round;
         shape-rendering: auto;

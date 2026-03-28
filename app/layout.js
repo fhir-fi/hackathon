@@ -1,3 +1,7 @@
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/700.css";
+
+import Footer from "./footer";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fi">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
