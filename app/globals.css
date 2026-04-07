@@ -53,7 +53,7 @@ a, h1, h2, h3, h4, h5, h6 {
 
 main {
   min-height: 100vh;
-  max-width: 60em;
+  max-width: 67rem;
   margin: 1em auto;
   border-radius: 2vh;
   padding: 0 2rem 18rem;
@@ -63,12 +63,12 @@ main {
   overflow: hidden;
 }
 
-main > picture > img {
+main > a > picture > img {
   display: inline-block;
   height: 20rem;
 }
 
-main > picture:first-of-type > img {
+main > a:first-of-type > picture > img {
   margin: -4rem -5rem 4rem;
 }
 
@@ -78,13 +78,13 @@ picture.inline img {
   margin-right: 0.5em;
 }
 
-main > picture:last-of-type > img {
+main > a:last-of-type > picture > img {
   position: absolute;
   bottom: -4rem;
   right: -3rem;
 }
 
-main > h1 {
+main > a > h1 {
   font-size: xx-large;
   font-weight: bolder;
   font-weight: 900;
@@ -134,7 +134,7 @@ ul {
 }
 
 @media (min-width: 80rem) {
-  main > h1 {
+  main > a > h1 {
     font-size: 8rem;
   }
 }

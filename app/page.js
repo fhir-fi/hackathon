@@ -1,12 +1,18 @@
+import Link from "next/link";
+
 import Footer from "./footer";
 
 export default function Home() {
   return (
     <main>
-      <picture>
-        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} />
-      </picture>
-      <h1>ATK-hackathon</h1>
+      <Link href="/">
+        <picture>
+          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+        </picture>
+      </Link>
+      <Link href="/">
+        <h1>ATK-hackathon</h1>
+      </Link>
       <p className="ingress">
         HL7 Finland ja Helsingin kaupunki järjestävät Sosiaali- ja terveydenhuollon ATK-päivien
         yhteydessä hackathon-tapahtuman.
@@ -44,6 +50,13 @@ export default function Home() {
       <section id="info">
         <a href="#info"><h2>Ohjeet</h2></a>
         <p>
+          Ajankohta: <time dateTime="2026-05-25">ma 25.5.2026</time> klo <time
+          dateTime="2026-05-25T07:00:00+03:00">07:00</time>-<time
+          dateTime="2026-05-25T18::00:00+03:00">18:00</time> ja <time dateTime="2026-05-25">ti
+          26.5.2026</time> klo <time dateTime="2026-05-25T07:00:00+03:00">07:00</time>-<time
+          dateTime="2026-05-25T18::00:00+03:00">18:00</time>.
+        </p>
+        <p>
           Ohjeet päivittyvät tälle sivulle lähempänä ajankohtaa.
         </p>
         <p>
@@ -53,9 +66,11 @@ export default function Home() {
         </p>
       </section>
       <Footer />
-      <picture>
-        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} />
-      </picture>
+      <Link href="/">
+        <picture>
+          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+        </picture>
+      </Link>
     </main>
   );
 }
