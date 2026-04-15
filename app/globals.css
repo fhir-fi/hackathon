@@ -63,12 +63,22 @@ main {
   overflow: hidden;
 }
 
-main > a > picture > img {
+main > a > picture > img.decoration {
   display: inline-block;
   height: 20rem;
 }
 
-main > a:first-of-type > picture > img {
+#organisers img.logo {
+  display: block;
+  margin: 1em auto;
+  height: 1.5rem;
+}
+
+#organisers img#helsinki {
+  height: 2rem;
+}
+
+main > a:first-of-type > picture > img.decoration {
   margin: -4rem -5rem 4rem;
 }
 
@@ -78,7 +88,7 @@ picture.inline img {
   margin-right: 0.5em;
 }
 
-main > a:last-of-type > picture > img {
+main > a:last-of-type > picture > img.decoration {
   position: absolute;
   bottom: -4rem;
   right: -3rem;
@@ -105,14 +115,13 @@ ul {
 }
 
 #footer nav {
-  display: inline-block;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 #footer nav li {
-  display: inline-block;
+  display: block;
   list-style-type: none;
   padding: 0 0.5em;
 }
@@ -130,6 +139,38 @@ ul {
   }
   main {
     border: 6px solid black;;
+  }
+}
+
+@media (min-width: 40rem) {
+  main > a > h1 {
+    font-size: 3rem;
+  }
+  #organisers img.logo {
+    display: block;
+    margin: 1em auto;
+    height: 3rem;
+  }
+  #organisers img#helsinki {
+    height: 4.5rem;
+  }
+  #footer nav {
+    display: inline-block;
+  }
+  #footer nav li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 60rem) {
+  main {
+    padding-bottom: 0;
+  }
+  #footer {
+    margin-top: 16rem;
+  }
+  main > a > h1 {
+    font-size: 4rem;
   }
 }
 

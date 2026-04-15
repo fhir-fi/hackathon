@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <Link href="/">
         <picture>
-          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
         </picture>
       </Link>
       <Link href="/">
@@ -35,8 +35,8 @@ export default function Home() {
         </p>
         <p>
           Mikäli sinulla on mielessä hyvä haaste, kerro siitä Jari Porrasmaalle <a
-          href="jari.porrasmaa@hyvaks.fi">jari.porrasmaa@hyvaks.fi</a> ja Tero Laiholle <a
-          href="tero.laiho@hel.fi">tero.laiho@hel.fi</a>.
+          href="mailto:jari.porrasmaa@hyvaks.fi">jari.porrasmaa@hyvaks.fi</a> ja Tero Laiholle <a
+          href="mailto:tero.laiho@hel.fi">tero.laiho@hel.fi</a>.
         </p>
       </section>
       {/*
@@ -65,10 +65,28 @@ export default function Home() {
           ohjeistuksiin</a>.
         </p>
       </section>
+      <section id="organisers">
+        <a href="#organisers"><h2>Järjestäjät</h2></a>
+        <a href="https://www.hl7.fi/">
+          <picture>
+            <img className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="FCG" />
+          </picture>
+        </a>
+        <a href="https://www.hel.fi/">
+          <picture>
+            <img id="helsinki" className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`} alt="FCG" />
+          </picture>
+        </a>
+        <a href="https://www.fcg.fi/">
+          <picture>
+            <img className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/FCG.svg`} alt="FCG" />
+          </picture>
+        </a>
+      </section>
       <Footer />
       <Link href="/">
         <picture>
-          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
         </picture>
       </Link>
     </main>
