@@ -164,7 +164,7 @@ ul {
 
 @media (min-width: 60rem) {
   main {
-    padding-bottom: 0;
+    padding-bottom: 1em;
   }
   #footer {
     margin-top: 16rem;

@@ -23,6 +23,9 @@
           fill: white;
           stroke: white;
         }
+        path {
+          stroke-width: 1px;
+        }
       }
     </style>
   </defs>
