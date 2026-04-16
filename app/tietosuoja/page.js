@@ -7,7 +7,7 @@ export default function Privacy() {
     <main>
       <Link href="/">
         <picture>
-          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
         </picture>
       </Link>
       <Link href="/">
@@ -22,11 +22,22 @@ export default function Privacy() {
         <p>
           Voit selata näitä sivuja huoletta. Sinua tai käyttäytymistäsi sivuilla ei seurata.
         </p>
+        <p>
+          Mikäli rekisteröidyt hackathonin osallistujaksi, tallennamme sinusta vain rekisteröinnin
+          yhteydessä itse kertomasi tiedot. Käsittelemme näitä tietoja vain hackathonin
+          järjestämiseksi tarpeellisiin tarkoituksiin. Käsittelemme tietojasi luottamuksellisesti
+          emmekä jaa niitä ulkopuolisille. Poistamme tallennetut tiedot hackathonin päättymisen
+          jälkeen.
+        </p>
+        <p>
+          Mikäli sinulla on kysyttävää tietosuojasta tai toiveita tietojesi käsittelyyn liittyen,
+          ota yhteyttä: <a href="mailto:fhir.finland@gmail.com">fhir.finland@gmail.com</a>.
+        </p>
       </section>
       <Footer />
       <Link href="/">
         <picture>
-          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
         </picture>
       </Link>
     </main>
