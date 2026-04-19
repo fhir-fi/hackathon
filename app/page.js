@@ -7,7 +7,11 @@ export default function Home() {
     <main>
       <Link href="/">
         <picture>
-          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img
+            className="decoration"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`}
+            alt=""
+          />
         </picture>
       </Link>
       <Link href="/">
@@ -16,6 +20,10 @@ export default function Home() {
       <p className="ingress">
         HL7 Finland ja Helsingin kaupunki järjestävät Sosiaali- ja terveydenhuollon ATK-päivien
         yhteydessä hackathon-tapahtuman.
+      </p>
+      <p>
+        Hackathonin tavoitteena on havainnollistaa standardien ja avointen rajapintojen hyötyjä
+        sosiaali- ja terveydenhuollon toimijoille.
       </p>
       {/*
       <section id="systems">
@@ -65,28 +73,60 @@ export default function Home() {
           ohjeistuksiin</a>.
         </p>
       </section>
+      <section id="register">
+        <a href="#register"><h2>Rekisteröityminen</h2></a>
+        <p>
+          Rekisteröityminen tapahtuu erillisellä lomalleella. Rekisteröityminen on
+          mahdollista <time dateTime="2026-05-12">12.5.2026</time> saakka.
+        </p>
+        <p>
+          Rekisteröitymällä aikaisin autat meitä järjestämään parhaan mahdollisen tapahtuman!
+        </p>
+        <p>
+           <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe8Erwcck3Q7cWDSwemG6580kHnb3A_R5Zk-xuCQ-gcG38WZw/viewform?usp=publish-editor"
+          >Rekisteröidy!</a>
+        </p>
+      </section>
       <section id="organisers">
         <a href="#organisers"><h2>Järjestäjät</h2></a>
         <a href="https://www.hl7.fi/">
           <picture>
-            <img className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="FCG" />
+            <img
+              className="logo"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`}
+              alt="FCG"
+            />
           </picture>
         </a>
         <a href="https://www.hel.fi/">
           <picture>
-            <img id="helsinki" className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`} alt="FCG" />
+            <img
+              id="helsinki"
+              className="logo"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`}
+              alt="FCG"
+            />
           </picture>
         </a>
         <a href="https://www.fcg.fi/">
           <picture>
-            <img className="logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/FCG.svg`} alt="FCG" />
+            <img
+              className="logo"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/FCG.svg`}
+              alt="FCG"
+            />
           </picture>
         </a>
       </section>
       <Footer />
       <Link href="/">
         <picture>
-          <img className="decoration" src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`} alt="" />
+          <img
+            className="decoration"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/atk-hackathon-logo.svg`}
+            alt=""
+          />
         </picture>
       </Link>
     </main>
