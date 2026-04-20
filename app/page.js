@@ -46,6 +46,57 @@ export default function Home() {
           href="mailto:jari.porrasmaa@hyvaks.fi">jari.porrasmaa@hyvaks.fi</a> ja Tero Laiholle <a
           href="mailto:tero.laiho@hel.fi">tero.laiho@hel.fi</a>.
         </p>
+        <p>
+          Haasteita on tulossa useita ja ne julkaistaan tässä alla sitä mukaa kun ne valmistuvat.
+        </p>
+        <details id="helsinki-terveydenhuolto">
+          <summary>
+            <h3>Helsingin kaupunki: terveydenhuollon haaste</h3>
+          </summary>
+          <p>
+            Helsingin kaupunki tahtoo löytää sovelluksia, jotka tukevat asiakkaan hoitoa,
+            kuntoutumista tai hoidon toteutumisen omaseurantaa. 
+          </p>
+          <p>
+            Sovellus voi olla mobiili- tai selaimella käytettävä sovellus. Sovellus sitouttaa
+            asiakasta omaan hoitoonsa ja mahdollisuuksien mukaan myös lisää asiakkaan osallisuutta.
+          </p>
+          <p>
+            Sovelluksen tulee oltava integroitavissa asiakas- ja potilastietojärjestelmään.
+            Integraatio toteutetaan käyttämällä olemassaolevia HL7 ja FHIR-rajapintoja.
+            Integraatioiden avulla sovellus vähentää ammattilaisen kirjaamistarvetta.
+          </p>
+          <h4>Arviointikriteerit</h4>
+          <dl>
+            <dt>Hyödyt</dt>
+            <dd>
+              Sovellus käyttää terveysdataa, jota voidaan jakaa Apotin/Epicin tai itsenäisesti
+              Maisan/MyChartin kautta. Sovellus on vaikuttava ja tuottaa hyötyä julkiselle
+              terveydenhuollolle esimerkiksi kustannustehokkuuden, sosiaalisen vaikuttavuuden tai
+              yksilölle ja/tai terveydenhuollon ammattilaisille koituvien etujen kautta.
+            </dd>
+            <dt>Toteutettavuus</dt>
+            <dd>
+              Sovelluksen käyttöönotto on suoraviivaista. Sovelluksella käytettävissä oleva data ei
+              ole rajoitettua. Sovellus voi hyödyntää myös muita terveyssovelluksia asiakkaan
+              kokonaisvaltaisen hoidon tukena. Sovellus voi talletaa tietoa Apottiin/Epiciin joko
+              suoran integraation tai Maisan/MyChartin kautta. Sovellus hyödyntää laajasti ja
+              monipuolisesti FHIR ja HL7 tarjoamia mahdollisuuksia tiedon käsittelyssä.
+            </dd>
+            <dt>Käytettävyys</dt>
+            <dd>
+              Sovellus on helppokäyttöinen. Käytettävyys tarkoittaa esimerkiksi teknistä
+              yksinkertaisuutta, tarkoituksenmukaisuutta ja selkeää kieltä sovelluksessa. Asiakas
+              ei tarvitse terveydenhuollon ammattilaisen tukea sovelluksen käyttämiseen.
+            </dd>
+            <dt>Sitouttavuus</dt>
+            <dd>
+              Sovellus kannustaa asiakasta käyttämään sitä säännöllisesti ja mielekkäällä tavalla.
+              Sopivia pelillistämisen elementtejä hyödynnetään sitoutumisen tukena. Sovellus
+              vahvistaa asiakkaan aktiivista osallistumista omaan hoitoonsa.
+            </dd>
+          </dl>
+        </details>
       </section>
       {/*
       <section id="prizes">
@@ -65,7 +116,8 @@ export default function Home() {
           dateTime="2026-05-25T18::00:00+03:00">18:00</time>.
         </p>
         <p>
-          Ohjeet päivittyvät tälle sivulle lähempänä ajankohtaa.
+          Ohjeet rekisteröitymiseen löytyvät alta. Tarkemmat osallistumisohjeet päivittyvät tälle
+          sivulle lähempänä ajankohtaa.
         </p>
         <p>
           Kannattaa myös perehtyä tammikuussa 2026 järjestetyn Finnish Health Data Hackathonin <a
