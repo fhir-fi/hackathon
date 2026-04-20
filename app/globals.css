@@ -64,7 +64,7 @@ main {
 }
 
 main > a > picture > img.decoration {
-  display: inline-block;
+  display: block;
   height: 20rem;
 }
 
@@ -90,8 +90,9 @@ picture.inline img {
 
 main > a:last-of-type > picture > img.decoration {
   position: absolute;
-  bottom: -4rem;
+  bottom: 0;
   right: -3rem;
+  margin-bottom: -4rem;
 }
 
 main > a > h1 {
@@ -112,6 +113,16 @@ a {
 
 ul {
   margin-left: 1em;
+}
+
+summary > h3 {
+  display: inline;
+  cursor: pointer;
+}
+
+dt {
+  margin-top: 1em;
+  font-weight: bolder;
 }
 
 #footer nav {
@@ -148,7 +159,7 @@ ul {
   }
   #organisers img.logo {
     display: block;
-    margin: 1em auto;
+    margin: 3em auto;
     height: 3rem;
   }
   #organisers img#helsinki {
