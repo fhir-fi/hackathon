@@ -56,7 +56,7 @@ main {
   max-width: 67rem;
   margin: 1em auto;
   border-radius: 2vh;
-  padding: 0 2rem 18rem;
+  padding: 0 2rem;
   color: var(--foreground);
   background: var(--background);
   position: relative;
@@ -89,10 +89,8 @@ picture.inline img {
 }
 
 main > a:last-of-type > picture > img.decoration {
-  position: absolute;
-  bottom: 0;
-  right: -3rem;
-  margin-bottom: -4rem;
+  float: right;
+  margin: 2rem -5rem -4rem 1em;
 }
 
 main > a > h1 {
@@ -153,6 +151,15 @@ dt {
   }
 }
 
+@media (max-width: 374px) {
+  body {
+    font-size: 100%;
+  }
+  main > a:last-of-type > picture > img.decoration {
+    margin-bottom: -4rem;
+  }
+}
+
 @media (min-width: 40rem) {
   main > a > h1 {
     font-size: 3rem;
@@ -182,6 +189,10 @@ dt {
   }
   main > a > h1 {
     font-size: 4rem;
+  }
+  main > a:last-of-type > picture > img.decoration {
+    margin-top: -15rem;
+    margin-bottom: -15rem;
   }
 }
 
