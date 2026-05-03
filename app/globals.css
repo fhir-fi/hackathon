@@ -82,15 +82,14 @@ main > a:first-of-type > picture > img.decoration {
   margin: -4rem -5rem 4rem;
 }
 
+main > a:last-of-type > picture > img.decoration {
+  margin: 6rem -5rem -4rem auto;
+}
+
 picture.inline img {
   height: 0.75em;
   vertical-align: baseline;
   margin-right: 0.5em;
-}
-
-main > a:last-of-type > picture > img.decoration {
-  float: right;
-  margin: 2rem -5rem -4rem 1em;
 }
 
 main > a > h1 {
@@ -104,13 +103,36 @@ main > section {
 }
 
 a {
-  color: var(--accent);
-  text-decoration: none;
   font-weight: 700;
+}
+
+a.fragment {
+  text-decoration: none;
 }
 
 ul {
   margin-left: 1em;
+}
+
+@counter-style abc {
+  system: alphabetic;
+  symbols: 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z';
+  suffix: ") ";
+}
+
+ul.a {
+  list-style-type: lower-alpha;
+  list-style: abc;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+ol {
+  margin-left: 2em;
+}
+
+details + details {
+  margin-top: 1em;
 }
 
 summary > h3 {
@@ -121,6 +143,10 @@ summary > h3 {
 dt {
   margin-top: 1em;
   font-weight: bolder;
+}
+
+dd:last-of-type {
+  margin-bottom: 1em;
 }
 
 #footer nav {
@@ -192,7 +218,7 @@ dt {
   }
   main > a:last-of-type > picture > img.decoration {
     margin-top: -15rem;
-    margin-bottom: -15rem;
+    margin-bottom: -5rem;
   }
 }
 
