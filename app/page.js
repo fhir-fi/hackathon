@@ -226,18 +226,23 @@ export default function Home() {
           </p>
         </details>
       </section>
-      <section id="info">
-        <a className="fragment" href="#info"><h2>Ohjeet</h2></a>
+      <section id="register">
+        <a className="fragment" href="#register"><h2>Rekisteröityminen</h2></a>
         <p>
-          Ajankohta: <time dateTime="2026-05-25">ma 25.5.2026</time> klo <time
-          dateTime="2026-05-25T07:00:00+03:00">07:00</time>-<time
-          dateTime="2026-05-25T18::00:00+03:00">18:00</time> ja <time dateTime="2026-05-25">ti
-          26.5.2026</time> klo <time dateTime="2026-05-25T07:00:00+03:00">07:00</time>-<time
-          dateTime="2026-05-25T18::00:00+03:00">18:00</time>.
+          Rekisteröityminen tapahtuu erillisellä lomakkeella. Rekisteröityminen on
+          mahdollista <time dateTime="2026-05-12">12.5.2026</time> saakka.
         </p>
         <p>
-          Ohjeet rekisteröitymiseen löytyvät alta.
+          Rekisteröitymällä aikaisin autat meitä järjestämään parhaan mahdollisen tapahtuman!
         </p>
+        <p>
+           <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe8Erwcck3Q7cWDSwemG6580kHnb3A_R5Zk-xuCQ-gcG38WZw/viewform?usp=publish-editor"
+          >Rekisteröidy!</a>
+        </p>
+      </section>
+      <section id="instructions">
+        <a className="fragment" href="#instructions"><h2>Ohjeet</h2></a>
         <p>
           <strong>Toteutuksia saa ja kannattaa työstää jo etukäteen!</strong> Esimerkiksi Epicin
           kehitysympäristöön pääsee rekisteröitymään ja sovelluksen integraatiota voi aloittaa
@@ -254,31 +259,93 @@ export default function Home() {
           href="https://hl7.fi/fhir/finnish-smart/">SMART App Launch</a>-määrittelyyn.
         </p>
         <p>
-          <strong>
-            Hackathonin käytännön toteutusta esitellään tarkemmin webinaarissa <time
-            dateTime="2026-05-11T09:00:00+03:00">11.5.2026 klo 9.00</time> (<a
-            href="https://teams.microsoft.com/meet/385262028201071?p=UZ7YplX1ysA289MNEL"
-            >Teams-linkki</a>, <a
-            href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NmNvbWkxc2xkMTE2YXV1ZzFuOHF0bGY4bm4gZmhpci5maW5sYW5kQG0&tmsrc=fhir.finland%40gmail.com"
-            >Google-kalenteri</a>). Tuolloin on myös
-            mahdollisuus esittää kysymyksiä tapahtuman järjestäjille.
-          </strong>
+          Hackathonin käytännön toteutusta esiteltiin tarkemmin webinaarissa <time
+          dateTime="2026-05-11T09:00:00+03:00">11.5.2026 klo 9.00</time>. Webinaarin tallenne
+          lisätään tälle sivulle pian.
         </p>
       </section>
-      <section id="register">
-        <a className="fragment" href="#register"><h2>Rekisteröityminen</h2></a>
+      <section id="program">
+        <h2>Ohjelma</h2>
+        <h3>Päivä 1: Kick-off ja toteutus</h3>
+        <time dateTime="2026-05-25">Maanantai 25.5.2026</time>
+        <address>Tila 203, Holiday Inn Helsinki - Expo</address>
+        <ul>
+          <li>
+            <time dateTime="2026-05-25T09:00:00+03:00">9.00</time>-<time
+            dateTime="2026-05-25T10:00:00+03:00">10.00</time> Ilmoittautuminen ja aamiainen
+          </li>
+          <li>
+            <time dateTime="2026-05-25T10:00:00+03:00">10.00</time>-<time
+            dateTime="2026-05-25T11:00:00+03:00">11.00</time> Avaussessio: Haasteiden esittely,
+            ympäristöjen ja dokumentaation läpikäynti
+          </li>
+          <li>
+            <time dateTime="2026-05-25T11:00:00+03:00">11.00</time>-<time
+            dateTime="2026-05-25T13:00:00+03:00">13.00</time> Toteutuksen aloitus
+          </li>
+          <li>
+            <time dateTime="2026-05-25T13:00:00+03:00">13.00</time>-<time
+            dateTime="2026-05-25T14:00:00+03:00">14.00</time> Lounas
+          </li>
+          <li>
+            <time dateTime="2026-05-25T14:00:00+03:00">14.00</time>-<time
+            dateTime="2026-05-25T18:00:00+03:00">18.00</time> Koodausta ja toteutusta
+          </li>
+        </ul>
+        <h3>Päivä 2: Hienosäätö ja esittelyt</h3>
+        <time dateTime="2026-05-26">Tiistai 26.5.2026</time>
+        <address>Tila 208, Holiday Inn Helsinki - Expo</address>
+        <ul>
+          <li>
+            <time dateTime="2026-05-25T09:00:00+03:00">9.00</time>-<time
+            dateTime="2026-05-25T09:15:00+03:00">09.15</time> <strong>Open Epic</strong>, software
+            developer Sean Hubber, Epic Helsinki Oy
+          </li>
+          <li>
+            <time dateTime="2026-05-25T09:15:00+03:00">09.15</time>-<time
+            dateTime="2026-05-25T09:30:00+03:00">09.30</time> <strong>Apotti-ekosysteemi -
+            tarinoita yhteiskehittämisestä</strong>, teknologiajohtaja Jari Renko, Apotti 
+          </li>
+          <li>
+            <time dateTime="2026-05-25T09:30:00+03:00">09.30</time>-<time
+            dateTime="2026-05-25T09:45:00+03:00">09.45</time> <strong>Beehealthy-konsortio
+            </strong>, <em>puhuja vahvistuu pian </em>
+          </li>
+          <li>
+            <time dateTime="2026-05-25T09:45:00+03:00">09.45</time>-<time
+            dateTime="2026-05-25T11:00:00+03:00">11.00</time> Toteutuksen aloitus
+          </li>
+          <li>
+            <time dateTime="2026-05-25T11:00:00+03:00">11.00</time>-<time
+            dateTime="2026-05-25T12:00:00+03:00">12.00</time> Lounas
+          </li>
+          <li>
+            <time dateTime="2026-05-25T12:00:00+03:00">12.00</time>-<time
+            dateTime="2026-05-25T15:00:00+03:00">15.00</time> Ratkaisujen esittely mentoreille ja
+            viime hetken korjaukset
+          </li>
+          <li>
+            <time dateTime="2026-05-25T15:00:00+03:00">15.00</time>-<time
+            dateTime="2026-05-25T16:00:00+03:00">16.00</time> Esitysten valmistelu
+          </li>
+          <li>
+            <time dateTime="2026-05-25T16:00:00+03:00">16.00</time>-<time
+            dateTime="2026-05-25T18:00:00+03:00">18.00</time> Tulosten esittely tuomaristolle ja
+            parhaiden ratkaisujen valinta 
+          </li>
+        </ul>
+        <address>ATK-päivien iltajuhla, halli 5, Messukeskus</address>
         <p>
-          Rekisteröityminen tapahtuu erillisellä lomalleella. Rekisteröityminen on
-          mahdollista <time dateTime="2026-05-12">12.5.2026</time> saakka.
+          <em>
+            (sisäänpääsy vain iltajuhlalipun varanneille / saaneille)
+          </em>
         </p>
-        <p>
-          Rekisteröitymällä aikaisin autat meitä järjestämään parhaan mahdollisen tapahtuman!
-        </p>
-        <p>
-           <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSe8Erwcck3Q7cWDSwemG6580kHnb3A_R5Zk-xuCQ-gcG38WZw/viewform?usp=publish-editor"
-          >Rekisteröidy!</a>
-        </p>
+        <ul>
+          <li>
+            <time dateTime="2026-05-25T20:00:00+03:00">20.00</time> alkaen: <strong>Parhaiden
+              ratkaisujen palkitseminen</strong>
+          </li>
+        </ul>
       </section>
       <section id="organisers">
         <a className="fragment" href="#organisers"><h2>Järjestäjät</h2></a>
