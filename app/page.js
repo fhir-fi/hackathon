@@ -260,8 +260,8 @@ export default function Home() {
         </p>
         <p>
           Hackathonin käytännön toteutusta esiteltiin tarkemmin webinaarissa <time
-          dateTime="2026-05-11T09:00:00+03:00">11.5.2026 klo 9.00</time>. Webinaarin tallenne
-          lisätään tälle sivulle pian.
+          dateTime="2026-05-11T09:00:00+03:00">11.5.2026 klo 9.00</time>. Katso <a
+          href="https://youtu.be/RL7Dg3T7WIE?si=HZX98RjqPQtu4SPQ">tallenne</a>!
         </p>
       </section>
       <section id="program">
@@ -298,8 +298,8 @@ export default function Home() {
         <ul>
           <li>
             <time dateTime="2026-05-25T09:00:00+03:00">9.00</time>-<time
-            dateTime="2026-05-25T09:15:00+03:00">09.15</time> <strong>Open Epic</strong>, software
-            developer Sean Hubber, Epic Helsinki Oy
+            dateTime="2026-05-25T09:15:00+03:00">09.15</time> <strong>Open Data Exchange with
+            Epic</strong>, software developer Sean Hubber, Epic Helsinki Oy
           </li>
           <li>
             <time dateTime="2026-05-25T09:15:00+03:00">09.15</time>-<time
